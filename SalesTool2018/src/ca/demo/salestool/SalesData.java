@@ -28,6 +28,18 @@ public class SalesData {
 		}
 		
 		System.out.println("Multiply Value = " + multiply);
+		
+		// 3) Add 5 to each element of data array 
+		for(int i = 0; i < data.length; i++) {
+			data[i] = data[i] + 5;
+ 		}
+		
+		
+		// 4) Subtract 2 from each element of data array 
+		for(int i = 0; i < data.length; i++) {
+			data[i] = data[i] - 2;
+ 		}
+		
 	}
 
 }
