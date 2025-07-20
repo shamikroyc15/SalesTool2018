@@ -40,11 +40,22 @@ public class SalesData {
 		
 		/* *********************************************************** */
 		
-		// 4) Multiply each element of data Array by 5
+		// 4) Add 5 to each element of data array - Branch: master
+		for(int i = 0; i < data.length; i++) {
+			data[i] = data[i] + 5;
+ 		}
+		
+		
+		// 5) Subtract 2 from each element of data array 
+		for(int i = 0; i < data.length; i++) {
+			data[i] = data[i] - 2;
+ 		}	
+		
+		// 6) Multiply each element of data Array by 5 - Branch: doWork1
 		System.out.println("Doing some crazy operations on Data Array: ");
 		for(int i = 0; i < data.length; i++) {
 			data[i] = data[i] * 5;
-		}
+		}		
 		
 		/* *********************************************************** */
 	}
