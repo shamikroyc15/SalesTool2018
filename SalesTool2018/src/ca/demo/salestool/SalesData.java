@@ -58,6 +58,18 @@ public class SalesData {
 		}		
 		
 		/* *********************************************************** */
+		
+		// CONVERT STRING TO ARRAY
+		// Create a string
+		String myStr = "Hello";
+
+		// Convert the string to a char array
+		char[] myArray = myStr.toCharArray();
+
+		// Print the first element of the array
+		System.out.println(myArray[0]);	
+		
+		/* *********************************************************** */
 	}
 
 }
