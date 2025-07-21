@@ -1,5 +1,6 @@
 package ca.demo.salestool;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -40,6 +41,16 @@ public class Main {
 		}
 
 		System.out.println("Reversed string: "+ reversedStr);
+		
+	}
+	
+	private static void doMergeDemo() {
+		
+		String[] cars = {"Volvo", "BMW", "Tesla", "Ford", "Fiat", "Mazda", "Audi"};
+		Arrays.sort(cars);
+	    for (String i : cars) {
+	      System.out.println(i);
+	    }
 		
 	}
 	
