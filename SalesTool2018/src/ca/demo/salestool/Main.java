@@ -1,5 +1,6 @@
 package ca.demo.salestool;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -48,6 +49,20 @@ public class Main {
 		
 		String[] cars = {"Volvo", "BMW", "Tesla", "Ford", "Fiat", "Mazda", "Audi"};
 		Arrays.sort(cars);
+	    for (String i : cars) {
+	      System.out.println(i);
+	    }
+		
+	}
+	
+	private static void doMergeDemo1() {
+		
+		// ArrayList Loop
+		ArrayList<String> cars = new ArrayList<String>();
+	    cars.add("Volvo");
+	    cars.add("BMW");
+	    cars.add("Ford");
+	    cars.add("Mazda");
 	    for (String i : cars) {
 	      System.out.println(i);
 	    }
