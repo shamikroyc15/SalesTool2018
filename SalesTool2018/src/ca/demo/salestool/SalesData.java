@@ -70,6 +70,27 @@ public class SalesData {
 		System.out.println(myArray[0]);	
 		
 		/* *********************************************************** */
+		// Find Average 
+		// An array storing different ages
+		int ages[] = {20, 22, 18, 35, 48, 26, 87, 70};
+
+		float avg, sum1 = 0;
+
+		// Get the length of the array
+		int length = ages.length;
+
+		// Loop through the elements of the array
+		for (int age : ages) {
+		  sum1 += age;
+		}
+
+		// Calculate the average by dividing the sum by the length
+		avg = sum1 / length;
+
+		// Print the average
+		System.out.println("The average age is: " + avg);
+		
+		/* *********************************************************** */
 	}
 
 }
